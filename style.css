@@ -72,7 +72,7 @@ h2 span{
 
 ::placeholder{
     color: #1C1C1C;
-    font-size: 1.5vw;
+    font-size: 2vw;
 }
 
 #submit{
@@ -188,8 +188,9 @@ hr{
         cursor: pointer;
     }
     hr{
-        position: absolute;
-        transform: translateY(10vw, 60vh);
+        position: relative;
+        top: 60vh;
+        left: 15vw;
         width: 60vw;
         background: #D5D4D8;
     }
@@ -235,7 +236,7 @@ hr{
         transform: translate(-100%, -100%);
         border-bottom-right-radius: 10px;
         cursor: pointer;
-        width: 12vw;
+        width: 18vw;
         height: 6vh;
         color: #10B981;
         font-weight: bold;
