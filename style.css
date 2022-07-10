@@ -17,20 +17,16 @@ body{
 h2{
     transform: translate(10%, 80%);
     color: #1C1C1C;
-    font-size: 2.5rem;
+    font-size: 2.8vw;
 }
 
 h2 span{
     color: #10B981;
 }
-p{
-    color: #6B7280;
-    transform: translate(52px, 95px);
-    font-size: 1.5rem;
-}
+
 
 #label-tickets{
-    font-size: 1.5rem;
+    font-size: 1.8vw;
     color: #1C1C1C;
     position: absolute;
     left: 17%;
@@ -39,7 +35,7 @@ p{
 }
 
 #label-points{
-    font-size: 1.5rem;
+    font-size: 1.8vw;
     color: #1C1C1C;
     position: absolute;
     right: 17%;
@@ -51,11 +47,11 @@ p{
     position: absolute;
     top: 36%;
     left: 8%;
-    width: 191px;
-    height: 42px;
+    width: 12vw;
+    height: 6vh;
     background-color: #10B981;
     text-align: center;
-    font-size: medium;
+    font-size: 1vw;
     border: none;
     border-radius: 6px;
     cursor: pointer;
@@ -65,11 +61,11 @@ p{
     position: absolute;
     top: 36%;
     right: 8%;
-    width: 191px;
-    height: 42px;
+    width: 12vw;
+    height: 6vh;
     background-color: #10B981;
     text-align: center;
-    font-size: medium;
+    font-size: 1vw;
     border: none;
     border-radius: 6px;
     cursor: pointer;
@@ -80,13 +76,13 @@ p{
     left: 50%;
     position: absolute;
     transform: translate(-50%, -25%);
-    width: 240px;
-    height: 42px;
+    width: 15vw;
+    height: 6vh;
     background-color: #273549;
     border-radius: 6px;
     color: #5DEF92;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.2vw;
     margin: 0;
     padding: 10px 5px;
     cursor: pointer;
@@ -102,12 +98,12 @@ hr{
 #win-rate p{
     transform: translate(5%, 33vh);
     width: 35vw;
-    height: 10vh;
+    height: 8vh;
     background-color: #273549;
     border-radius: 6px;
     color: #5DEF92;
     text-align: center;
-    font-size: 3rem;
+    font-size: 3vw;
     margin: 0;
     padding: 10px 5px;
     cursor: pointer;
@@ -122,8 +118,17 @@ hr{
     transform: translate(-100%, -100%);
     border-bottom-right-radius: 10px;
     cursor: pointer;
-    width: 15%;
-    height: 5%;
+    width: 8vw;
+    height: 4vh;
     color: #10B981;
     font-weight: bold;
+    font-size: 1vw;
+}
+
+@media only screen and (max-width: 600px){
+    #background{
+        width: 80vw;
+        background-color: red;
+        height: 80vh;
+    }
 }
