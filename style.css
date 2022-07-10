@@ -175,6 +175,13 @@ hr{
         cursor: pointer;
     }
 
+    #tickets p{
+        font-size: 8vw;
+    }
+    #points p{
+        font-size: 8vw;
+    }
+
     .input #points{
         position: absolute;
         top: 36%;
