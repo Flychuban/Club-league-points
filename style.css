@@ -144,7 +144,7 @@ hr{
     }
 
     #label-tickets{
-        font-size: 3vw;
+        font-size: 5vw;
         color: #1C1C1C;
         position: absolute;
         left: 17%;
@@ -153,7 +153,7 @@ hr{
     }
 
     #label-points{
-        font-size: 3vw;
+        font-size: 5vw;
         color: #1C1C1C;
         position: absolute;
         right: 17%;
@@ -239,8 +239,11 @@ hr{
         cursor: pointer;
         width: 18vw;
         height: 6vh;
-        color: #10B981;
+        color: #5DEF92;
         font-weight: bold;
         font-size: 1.5vw;
+    }
+    ::placeholder{
+        font-size: 4vw;
     }
 }
