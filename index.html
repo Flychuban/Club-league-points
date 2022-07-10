@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Brawl Stars club league winrate calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div id="background">
+        <h2>Brawl Stars Club League <br> <span>winrate calculator</span></h2>
+        <form>
+            <div class="input">
+                <label for="tickets" id="label-tickets">Tickets:</label>
+                <input type="number" id="tickets" placeholder="Number used tickets" required min="1">
+            </div>
+            <div class="input">
+                <label for="points" id="label-points">Points:</label>
+                <input type="number" id="points" placeholder="Club points" required min="1"> 
+            </div>
+            <div>
+                <input type="submit" id="submit">
+            </div>
+        </form>
+        <!-- <button id="generate-btn">Generate password</button> -->
+        <hr>
+        <div id="win-rate">
+            <p>Club Win Rate: </p>
+        </div>
+        <div>
+            <button id="reset-btn">RESET</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>

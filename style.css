@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("background_img.png");
+}
+
+#background{
+    background: #ECFDF5;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 6.25%);
+    width: 40vw;
+    height: 80vh;
+    border-radius: 10px;
+}
+h2{
+    transform: translate(10%, 80%);
+    color: #1C1C1C;
+    font-size: 2.5rem;
+}
+
+h2 span{
+    color: #10B981;
+}
+p{
+    color: #6B7280;
+    transform: translate(52px, 95px);
+    font-size: 1.5rem;
+}
+
+#label-tickets{
+    font-size: 1.5rem;
+    color: #1C1C1C;
+    position: absolute;
+    left: 17%;
+    top: 30%;
+    font-weight: bold;
+}
+
+#label-points{
+    font-size: 1.5rem;
+    color: #1C1C1C;
+    position: absolute;
+    right: 17%;
+    top: 30%;
+    font-weight: bold;
+}
+
+.input #tickets{
+    position: absolute;
+    top: 36%;
+    left: 8%;
+    width: 191px;
+    height: 42px;
+    background-color: #10B981;
+    text-align: center;
+    font-size: medium;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.input #points{
+    position: absolute;
+    top: 36%;
+    right: 8%;
+    width: 191px;
+    height: 42px;
+    background-color: #10B981;
+    text-align: center;
+    font-size: medium;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#submit{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -25%);
+    width: 240px;
+    height: 42px;
+    background-color: #273549;
+    border-radius: 6px;
+    color: #5DEF92;
+    text-align: center;
+    font-size: 1rem;
+    margin: 0;
+    padding: 10px 5px;
+    cursor: pointer;
+}
+
+hr{
+    transform: translateY(30vh);
+    width: 30vw;
+    background: #D5D4D8;
+}
+
+
+#win-rate p{
+    transform: translate(5%, 33vh);
+    width: 35vw;
+    height: 10vh;
+    background-color: #273549;
+    border-radius: 6px;
+    color: #5DEF92;
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+    padding: 10px 5px;
+    cursor: pointer;
+    position: absolute;
+}
+
+#reset-btn{
+    background-color: #273549;
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translate(-100%, -100%);
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+    width: 15%;
+    height: 5%;
+    color: #10B981;
+    font-weight: bold;
+}
