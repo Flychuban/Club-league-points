@@ -189,8 +189,8 @@ hr{
     }
     hr{
         position: relative;
-        top: 60vh;
-        left: 15vw;
+        top: 45vh;
+        left: 10vw;
         width: 60vw;
         background: #D5D4D8;
     }
@@ -213,7 +213,7 @@ hr{
     }
 
     #win-rate p{
-        top: 50vh;
+        top: 60vh;
         left: 10vw;
         width: 60vw;
         height: 10vh;
