@@ -132,9 +132,9 @@ hr{
 
     h2{
         position: absolute;
-        top: 20%;
+        top: 5%;
         color: #1C1C1C;
-        font-size: 4vw;
+        font-size: 8vw;
     }
 
     #label-tickets{
@@ -155,10 +155,10 @@ hr{
         font-weight: bold;
     }
 
-    .input #tickets p{
+    .input #tickets{
         position: absolute;
         top: 36%;
-        left: 8%;
+        left: 10%;
         width: 25vw;
         height: 8vh;
         background-color: #10B981;
@@ -170,10 +170,10 @@ hr{
         color: #1C1C1C;
     }
 
-    .input #points p{
+    .input #points{
         position: absolute;
         top: 36%;
-        right: 8%;
+        right: 10%;
         width: 25vw;
         height: 8vh;
         background-color: #10B981;
@@ -185,7 +185,8 @@ hr{
         color: #1C1C1C;
     }
     hr{
-        transform: translateY(40vh);
+        position: absolute;
+        transform: translateY(20vh);
         width: 60vw;
         background: #D5D4D8;
     }
